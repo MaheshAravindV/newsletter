@@ -1,9 +1,6 @@
 body{
    background-color: #F5F1D2; 
 }
-*{
-    text-align: center;
-}
 h1{
     font-size: 5vw;
     font-family:Helvetica;
@@ -11,7 +8,7 @@ h1{
 .para{
     font-size: 2vw;
     text-align: left;
-    font-family:Helvetica;  
+    font-family: 'Open Sans'
 }
 .container-fluid{
     background-color: white;
@@ -22,20 +19,38 @@ button{
     border-radius: 5px;
     text-align: center !important;
 }
+button#share{
+    background-color: #7C041B !important;
+}
 .heading{
     background-color: #7C1D1D;
     color: white;
-    height: 6vw;
+    height: 7vw;
+    text-align: center;
 }
 .line{
-    margin-top: 100px;
     margin: auto;
-    color: "#B09456" !important;
+    color: "#7C1D1D" !important;
+    background-color: "#7C1D1D" !important;
+    border-color: "#7C1D1D" !important;    
     width: 70%;
-    height: 1px;
+    height: 3px !important;
 }
 #bt{
     font-size: 2.1vw;
+}
+.alumnitext{
+    display: block;
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+}
+#nasscom{
+    font-size: 3vw;
+    text-align: center;
+}
+b#follow{
+    font-size: 3.2vw;
+    color: #7C041B;
 }
 @media(min-width:800px){
     .container-fluid{
@@ -45,7 +60,7 @@ button{
         font-size: 30px !important;
     }
     .heading{
-        height: 40px !important;
+        height: 50px !important;
     }
     .para{
         font-size: 14px !important;
@@ -55,5 +70,14 @@ button{
     }
     #bt{
         font-size: 16px;
+    }
+    .alumnitext{
+        font-size: 12px;
+    }
+    #nasscom{
+        font-size: 16px;
+    }
+    b#follow{
+        font-size: 18px;
     }
 }
